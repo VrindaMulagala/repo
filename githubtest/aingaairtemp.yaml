@@ -1,0 +1,12 @@
+kind: API
+apiVersion: api.ibm.com/v1
+metadata:
+  name: aingaairtemp
+  version: '1.0'
+  namespace: githubtest
+  tags: []
+  type: REST
+spec:
+  api-spec:
+    $path: ./aingaairtemp-spec.yml
+  policy-sequence: []

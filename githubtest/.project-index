@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "id": "2bc487f9-408a-4ceb-8563-3e0d54180abd:0",
+      "projectId": "4CSZwyDm",
+      "filePath": "githubtest/aingaairtemp.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1792041891220,
+      "schemaVersion": 1,
+      "kind": "API",
+      "name": "aingaairtemp",
+      "namespace": "githubtest",
+      "version": "1.0",
+      "contentHash": "14cbe02aa7e3532d"
+    },
+    {
+      "id": "785bff66-cfc5-49f7-9006-b88c92c535da:0",
+      "projectId": "4CSZwyDm",
+      "filePath": "githubtest/.project-index",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1792041678356,
+      "schemaVersion": 1
+    },
+    {
+      "id": "b2a03b77-258b-480d-a701-fe1bc5b1b285:0",
+      "projectId": "4CSZwyDm",
+      "filePath": "githubtest/aingaairtemp-spec.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1792041890001,
+      "schemaVersion": 1
+    }
+  ],
+  "edges": [
+    {
+      "id": "c0f1634f-5def-4038-9645-26a22487b2c6",
+      "projectId": "4CSZwyDm",
+      "sourceNodeId": "2bc487f9-408a-4ceb-8563-3e0d54180abd:0",
+      "targetNodeId": "b2a03b77-258b-480d-a701-fe1bc5b1b285:0",
+      "targetRefType": "same-project",
+      "targetRefString": "./aingaairtemp-spec.yml",
+      "targetRefKind": "support",
+      "isValid": true,
+      "createdAt": 1792041891228,
+      "lastValidated": 1792041891228
+    }
+  ]
+}
