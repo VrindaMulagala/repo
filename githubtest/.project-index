@@ -1,18 +1,46 @@
 {
   "nodes": [
     {
+      "id": "23964036-81c6-4ec0-af25-6c4c82ac83c2:0",
+      "projectId": "4CSZwyDm",
+      "filePath": "githubtest/testplan.yml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1792042235881,
+      "schemaVersion": 1,
+      "kind": "Plan",
+      "name": "testplan",
+      "namespace": "githubtest",
+      "version": "1.0",
+      "contentHash": "b314f7cdb1fe78b7"
+    },
+    {
       "id": "2bc487f9-408a-4ceb-8563-3e0d54180abd:0",
       "projectId": "4CSZwyDm",
       "filePath": "githubtest/aingaairtemp.yaml",
       "docIndex": 0,
       "assetType": "resource",
-      "lastIndexed": 1792041891220,
+      "lastIndexed": 1792042014298,
       "schemaVersion": 1,
       "kind": "API",
       "name": "aingaairtemp",
       "namespace": "githubtest",
       "version": "1.0",
-      "contentHash": "14cbe02aa7e3532d"
+      "contentHash": "721397c14edc028a"
+    },
+    {
+      "id": "54965afe-c7d1-43c0-b8ee-cd97377974f6:0",
+      "projectId": "4CSZwyDm",
+      "filePath": "githubtest/Quota-odho91.yml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1792042234868,
+      "schemaVersion": 1,
+      "kind": "Quota",
+      "name": "Quota-odho91",
+      "namespace": "githubtest",
+      "version": "1.0",
+      "contentHash": "0ea07665e272f9a2"
     },
     {
       "id": "785bff66-cfc5-49f7-9006-b88c92c535da:0",
@@ -31,9 +59,73 @@
       "assetType": "support",
       "lastIndexed": 1792041890001,
       "schemaVersion": 1
+    },
+    {
+      "id": "e1de9fda-395e-412d-a0a6-476f2a59019c:0",
+      "projectId": "4CSZwyDm",
+      "filePath": "githubtest/testprod.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1792042247170,
+      "schemaVersion": 1,
+      "kind": "Product",
+      "name": "testprod",
+      "namespace": "githubtest",
+      "version": "1.0",
+      "contentHash": "2c2f9e9a62d7e17e"
+    },
+    {
+      "id": "fd23dadc-8733-45ca-aacc-72e6abf44094:0",
+      "projectId": "4CSZwyDm",
+      "filePath": "githubtest/testseq.yml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1792042098069,
+      "schemaVersion": 1,
+      "kind": "DataPowerAssembly",
+      "name": "testseq",
+      "namespace": "githubtest",
+      "version": "1.0",
+      "contentHash": "c064c15efd5a4792"
     }
   ],
   "edges": [
+    {
+      "id": "47927770-1e4a-4105-8e15-41248ad554d8",
+      "projectId": "4CSZwyDm",
+      "sourceNodeId": "23964036-81c6-4ec0-af25-6c4c82ac83c2:0",
+      "targetNodeId": "54965afe-c7d1-43c0-b8ee-cd97377974f6:0",
+      "targetRefType": "same-project",
+      "targetRefString": "githubtest:Quota-odho91:1.0",
+      "targetRefKind": "resource",
+      "isValid": true,
+      "createdAt": 1792042235882,
+      "lastValidated": 1792042235882
+    },
+    {
+      "id": "816f6c1c-ea01-4615-9723-cdaa7d86e566",
+      "projectId": "4CSZwyDm",
+      "sourceNodeId": "2bc487f9-408a-4ceb-8563-3e0d54180abd:0",
+      "targetNodeId": "fd23dadc-8733-45ca-aacc-72e6abf44094:0",
+      "targetRefType": "same-project",
+      "targetRefString": "githubtest:testseq:1.0",
+      "targetRefKind": "resource",
+      "isValid": true,
+      "createdAt": 1792042014299,
+      "lastValidated": 1792042098075
+    },
+    {
+      "id": "b8bf78d8-80b3-4ae2-be43-4fb4104fdbef",
+      "projectId": "4CSZwyDm",
+      "sourceNodeId": "e1de9fda-395e-412d-a0a6-476f2a59019c:0",
+      "targetNodeId": "23964036-81c6-4ec0-af25-6c4c82ac83c2:0",
+      "targetRefType": "same-project",
+      "targetRefString": "githubtest:testplan:1.0",
+      "targetRefKind": "resource",
+      "isValid": true,
+      "createdAt": 1792042247172,
+      "lastValidated": 1792042247172
+    },
     {
       "id": "c0f1634f-5def-4038-9645-26a22487b2c6",
       "projectId": "4CSZwyDm",
@@ -45,6 +137,18 @@
       "isValid": true,
       "createdAt": 1792041891228,
       "lastValidated": 1792041891228
+    },
+    {
+      "id": "d36d1d6b-c741-46c3-84da-855079bc3ceb",
+      "projectId": "4CSZwyDm",
+      "sourceNodeId": "e1de9fda-395e-412d-a0a6-476f2a59019c:0",
+      "targetNodeId": "2bc487f9-408a-4ceb-8563-3e0d54180abd:0",
+      "targetRefType": "same-project",
+      "targetRefString": "githubtest:aingaairtemp:1.0",
+      "targetRefKind": "resource",
+      "isValid": true,
+      "createdAt": 1792042151180,
+      "lastValidated": 1792042151180
     }
   ]
 }

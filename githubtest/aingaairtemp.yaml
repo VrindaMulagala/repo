@@ -9,4 +9,5 @@ metadata:
 spec:
   api-spec:
     $path: ./aingaairtemp-spec.yml
-  policy-sequence: []
+  policy-sequence:
+    - $ref: githubtest:testseq:1.0
