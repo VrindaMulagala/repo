@@ -1,0 +1,11 @@
+kind: Product
+apiVersion: api.ibm.com/v1
+metadata:
+  name: githubtest2prod
+  namespace: githubtest
+  version: '1.0'
+  tags: []
+spec:
+  apis:
+    - $ref: githubtest:aingaairtemp:1.0
+  plans: []

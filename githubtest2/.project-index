@@ -1,0 +1,41 @@
+{
+  "nodes": [
+    {
+      "id": "ad03b45f-bd49-4b32-ac81-7a44898392b5:0",
+      "projectId": "piu4Scgy",
+      "filePath": "githubtest2/.project-index",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1792044569109,
+      "schemaVersion": 1
+    },
+    {
+      "id": "ae278a8f-cb05-4958-ab4d-1e860141dfac:0",
+      "projectId": "piu4Scgy",
+      "filePath": "githubtest2/githubtest2prod.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1792044600126,
+      "schemaVersion": 1,
+      "kind": "Product",
+      "name": "githubtest2prod",
+      "namespace": "githubtest",
+      "version": "1.0",
+      "contentHash": "4861013b5215e025"
+    }
+  ],
+  "edges": [
+    {
+      "id": "a5d38f30-74ea-4eb7-b6d7-36fb4c8558b7",
+      "projectId": "piu4Scgy",
+      "sourceNodeId": "ae278a8f-cb05-4958-ab4d-1e860141dfac:0",
+      "targetNodeId": "2bc487f9-408a-4ceb-8563-3e0d54180abd:0",
+      "targetRefType": "cross-project",
+      "targetRefString": "githubtest:aingaairtemp:1.0",
+      "targetRefKind": "resource",
+      "isValid": true,
+      "createdAt": 1792044600127,
+      "lastValidated": 1792044600127
+    }
+  ]
+}
